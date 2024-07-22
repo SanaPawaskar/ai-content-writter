@@ -10,7 +10,7 @@ function  Look() {
     
 
     const configuration = new Configuration({
-        apiKey:'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'
+      apiKey:'API_KEY'
     })
     const openai = new OpenAIApi(configuration);
     const handleSubmit = (event) => {
